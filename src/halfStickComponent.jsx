@@ -47,6 +47,22 @@ const HalfStickyComponent = () => {
   const fadeInOutDataKungFu = createFadeInOutData(600, "translateY");
   const fadeInOutDataDragon = createFadeInOutData(600, "translateX");
 
+  // return (
+  //   <>
+  //     <div className="blur"></div>
+  //     <div className="movies-component">
+  //       <div className="movie-image">
+  //         <img src="src\assets\puss_in_boots_cover.jpg" alt="" />
+  //       </div>
+  //       <div className="movie-image">
+  //         <img src="src\assets\kung-fu-Cover.jpg" alt="" />
+  //       </div>
+  //       <div className="movie-image">
+  //         <img src="src\assets\dragon-cover.jpg" alt="" />
+  //       </div>
+  //     </div>
+  //   </>
+  // );
   return (
     <div className="movies-component">
       <h1>Movies</h1>
